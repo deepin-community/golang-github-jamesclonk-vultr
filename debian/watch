@@ -1,0 +1,9 @@
+# uscan(1) configuration file.
+version=4
+
+opts="\
+pgpmode=none,\
+repack,\
+compression=xz,\
+" https://github.com/JamesClonk/vultr/releases \
+  .*/archive/v?(\d[\d\.]+)\.tar\.gz

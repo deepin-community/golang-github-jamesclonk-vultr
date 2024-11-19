@@ -1,5 +1,52 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-jamesclonk-vultr (2.0.1-1) unstable; urgency=medium
 
-  * Initial release
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Dmitry Smirnov ]
+  * New upstream release
+  * Testsuite: autopkgtest-pkg-go
+  * Standards-Version: 4.4.1
+  * DH to version 12
+  * (Build-)Depends:
+    - golang-github-juju-ratelimit-dev
+    + golang-golang-x-time-dev
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 25 Dec 2019 19:56:16 +1100
+
+golang-github-jamesclonk-vultr (1.15.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.15.0
+  * Use debhelper v11
+  * Update to Standards-Version 4.1.3
+    - Use Priority: optional
+  * Update d/copyright
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Wed, 21 Mar 2018 17:39:47 +0100
+
+golang-github-jamesclonk-vultr (1.13.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.13.0
+  * Update to Standards-Version 4.0.0
+    - Use HTTPS URL for d/copyright
+  * Add repack options to d/watch
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Fri, 07 Jul 2017 19:32:04 +0200
+
+golang-github-jamesclonk-vultr (1.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Imported Upstream version 1.10
+  * Use debhelper v10
+  * Use golang-any instead of golang-go
+  * Update d/copyright
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 15 Nov 2016 09:04:38 +0100
+
+golang-github-jamesclonk-vultr (1.9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #834384).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 15 Aug 2016 14:47:44 +1000
