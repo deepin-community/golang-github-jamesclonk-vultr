@@ -1,4 +1,10 @@
 #!/usr/bin/make -f
 
+## "cmd" requires "github.com/jawher/mow.cli" which is not packaged yet.
+export DH_GOLANG_EXCLUDES = cmd
+
 %:
-	dh $@
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_install:
+	dh_auto_install --destdir=debian/tmp
